@@ -47,5 +47,10 @@
             <groupId>org.infinispan</groupId>
             <artifactId>infinispan-client-hotrod</artifactId>
         </dependency>
+        <dependency>
+            <groupId>commons-pool</groupId>
+            <artifactId>commons-pool</artifactId>
+            <scope>runtime</scope>
+        </dependency>
     </dependencies>
 </project>
