@@ -29,7 +29,7 @@
     <parent>
         <groupId>org.wildfly</groupId>
         <artifactId>wildfly-clustering-ee</artifactId>
-        <version>11.0.0.Alpha1-SNAPSHOT</version>
+        <version>11.0.0.Alpha1</version>
     </parent>
 
     <artifactId>wildfly-clustering-ee-hotrod</artifactId>
@@ -37,6 +37,12 @@
     <packaging>jar</packaging>
 
     <name>WildFly: EE clustering - HotRod service provider</name>
+
+    <scm>
+        <connection>scm:git:git://github.com:wildfly-clustering/wildfly-clustering-ee-hotrod.git</connection>
+        <developerConnection>scm:git:git@github.com:wildfly-clustering/wildfly-clustering-ee-hotrod.git</developerConnection>
+        <url>https://github.com/wildfly-clustering/wildfly-clustering-ee-hotrod</url>
+    </scm>
 
     <dependencies>
         <dependency>
